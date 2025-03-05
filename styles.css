@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4eded;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: grey;
+    padding: 15px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 80px;
+    background-color: beige;
+}
+
+.hero-content h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.event-date {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(95, 94, 94);
+}
+
+.cta-button {
+    background: #ff5733;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-section {
+    background: #ffffff;
+    padding: 60px 40px;
+    text-align: left;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.speakers-container {
+    background: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 30px;
+    flex-wrap: wrap;
+}
+
+.speaker-box {
+    width: 260px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.speaker-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.speaker-box img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 260px;
+}
+
+.register-form {
+    background:rgb(163, 163, 175);
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.register-form input, .register-form textarea, .register-form button {
+    padding: 14px;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.register-form textarea {
+    height: 140px;
+}
+
+.register-form button {
+    background: #e67e22;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-form button:hover {
+    background: #d35400;
+}
+
+.faqs {
+    background: beige;
+    padding: 60px 30px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    padding: 10px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.footer p {
+    font-size: 17px;
+}
+.social-media{
+    font-size: 17px;
+    
+}
+.social-media a{
+    color: blue;
+   
+}
+.Twitter{
+    background-color:  rgb(179, 172, 172);
+    padding: 6.2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow:2px 2px 4px rgba(8, 160, 233, 1);
+   
+}
+.Instagram{
+    background-color: rgb(179, 172, 172);
+    padding: 5px;
+    box-shadow:2px 2px 4px rgba(193,53,132, 1);
+   
+}
+
+.social-media a:hover{
+    color:black;
+    box-shadow:2px 2px 4px rgba(248, 246, 246, 0.9);
+
+}
+.back-to-top-link{
+    background-color:white;
+    padding: 4px;
+    text-align: center;
+    font-size: 17px;
+    box-shadow:4px 4px 4px rgb(243, 208, 8,1)
+}
+.back-to-top-link a:hover{
+    color: green;
+    box-shadow:2px 2px 4px rgba(142, 244, 179, 0.9);
+}
+.libogo{
+max-width: 100px;
+height: auto;
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+ .footer-img img{
+    max-width:600px;
+    height: auto;
+
+}
